@@ -24,4 +24,5 @@ dist-ssr
 *.sw?
 
 # Information and Notes
-.notes.md
+notes.md
+draftCodes.md
