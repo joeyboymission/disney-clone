@@ -12,3 +12,13 @@
       ))}
     </div>
   );
+
+
+
+                                  <video
+                                src={item.video}
+                                className="w-full object-cover"
+                                autoPlay
+                                loop
+                                muted
+                                ></video>
