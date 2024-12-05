@@ -14,6 +14,16 @@
   );
 
 
+<ChevronLeft 
+  className={`text-white text-[40px] absolute ${index_ % 3 === 0 ? 'mx-[-30px] mt-[40px] md:mt-[80px]' : 'mx-[-30px] mt-[20px] md:mt-[40px]'} cursor-pointer`} 
+  onClick={() => sliderLeft(elementRef.current)} 
+/>
+<ChevronRight 
+  className="text-white text-[40px] absolute mx-8 mt-[80px] md:mt-[160px] cursor-pointer right-0" 
+  onClick={() => sliderRight(elementRef.current)} 
+/>
+
+
 
                                   <video
                                 src={item.video}

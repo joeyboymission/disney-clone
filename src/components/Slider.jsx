@@ -41,10 +41,10 @@ function Slider() {
       
       <div className="flex overflow-x-auto w-full px-16 py-5 scrollbar-hide scroll-smooth" ref={elementRef}>
         {movieList.map((movie, index) => (
-          <div key={index} className="flex-none w-[620px] md:w-[1735px] mr-5">
+          <div key={index} className="flex-none w-[82.5vw] md:w-[92.25vw] mr-8">
             <img
               src={IMAGE_BASE_URL + movie.backdrop_path}
-              className="min-w-full h-[150px] md:h-[310px] object-cover rounded-md hover:border-[2px] border-gray-400 transition-all duration-100 ease-in"
+              className="flex-grow min-w-full h-[150px] md:h-[310px] object-cover object-left-top rounded-md hover:border-[2px] border-gray-400 transition-all duration-100 ease-in"
             />
           </div>
         ))}
