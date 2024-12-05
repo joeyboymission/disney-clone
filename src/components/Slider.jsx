@@ -39,7 +39,7 @@ function Slider() {
         <ChevronRight className="text-white text-[40px] absolute mx-8 mt-[80px] md:mt-[160px] cursor-pointer right-0" onClick={() => sliderRight(elementRef.current)}/>
       </div>
       
-      <div className="flex overflow-x-auto w-full px-16 py-5 scrollbar-hide scroll-smooths" ref={elementRef}>
+      <div className="flex overflow-x-auto w-full px-16 py-5 scrollbar-hide scroll-smooth" ref={elementRef}>
         {movieList.map((movie, index) => (
           <div key={index} className="flex-none w-[620px] md:w-[1735px] mr-5">
             <img
